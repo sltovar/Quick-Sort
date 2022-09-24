@@ -2,11 +2,10 @@
 This program takes a list of numbers as input and returns a list of the numbers in ascending order by using the quick sort algorithm and dividing the lists based upon the average value of a list.
 
  STEPS:
-; Average: Add all the numbers of a list, divide by the numbers
+Average: Add all the numbers of a list, divide by the numbers
 
-; This is a recursive function, where you figure out the
-; average number of the list, divide the list into two lists
-; (numbers that are less than that number, numbers that are
+This is a recursive function, where you figure out the average number of the list, divide the list into two lists
+(numbers that are less than that number, numbers that are
 ; greater than that number), and keep doing that until you end
 ; up with either lists that have one number in them or ones
 ; that are empty lists.
